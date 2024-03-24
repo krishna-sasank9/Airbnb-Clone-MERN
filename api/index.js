@@ -42,8 +42,6 @@ function getUserdata(req){
   });
 }
 
-
-
 app.get("/test", (req, res) => {
   res.json("Test Ok");
 });
